@@ -19,3 +19,11 @@ val Red = Color(0xFFF04646)
 val ColorScheme.appColor
     @Composable
     get() = AppColor
+
+val ColorScheme.topHeadingColor
+    @Composable
+    get() = TopHeadingColor
+
+val ColorScheme.red
+    @Composable
+    get() = Red
